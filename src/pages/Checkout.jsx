@@ -101,10 +101,24 @@ export default function Checkout() {
             {field('landmark', t('checkout.landmark'), { maxLength: 150 })}
             <label className="field"><span>{t('checkout.language')}</span>
               <select value={lang} onChange={(e) => setLang(e.target.value)}><option value="mr">मराठी</option><option value="hi">हिंदी</option><option value="en">English</option></select></label>
-            <label className="field"><span>{t('checkout.payment')}</span>
-              <select value={payment} onChange={(e) => setPayment(e.target.value)}>
-                {[['UPI', 'upi'], ['Bank Transfer', 'bank']].map(([v, k]) => <option key={v} value={v}>{t(`payment.${k}`)}</option>)}
-              </select></label>
+            
+             <label className="field">
+  <span>{t('checkout.payment')}</span>
+  <select
+    value={payment}
+    onChange={(e) => setPayment(e.target.value)}
+  >
+    {[
+      ['UPI', 'upi'],
+      ['Bank Transfer', 'bank']
+    ].map(([label, value]) => (
+      <option key={value} value={value}>
+        {t(`payment.${value}`)}
+      </option>
+    ))}
+  </select>
+
+              </label>
             <label className="field full"><span>{t('checkout.notes')}</span><textarea rows="2" value={f.notes} onChange={up('notes')} maxLength={500} /></label>
           </div>
         </div>
