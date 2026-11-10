@@ -25,7 +25,7 @@ export default function Checkout() {
   const [f, setF] = useState(EMPTY);
   const [sameWa, setSameWa] = useState(true);
   const [lang, setLang] = useState(i18n.language);
-  const [payment, setPayment] = useState('UPI');
+  const [payment, setPayment] = useState('upi');
   const [errors, setErrors] = useState({});
   const [busy, setBusy] = useState(false);
 
@@ -103,7 +103,7 @@ export default function Checkout() {
               <select value={lang} onChange={(e) => setLang(e.target.value)}><option value="mr">मराठी</option><option value="hi">हिंदी</option><option value="en">English</option></select></label>
             <label className="field"><span>{t('checkout.payment')}</span>
               <select value={payment} onChange={(e) => setPayment(e.target.value)}>
-                {[['UPI on Delivery', 'upi'], ['Bank Transfer', 'bank']].map(([v, k]) => <option key={v} value={v}>{t(`payment.${k}`)}</option>)}
+                {[['UPI', 'upi'], ['Bank Transfer', 'bank']].map(([v, k]) => <option key={v} value={v}>{t(`payment.${k}`)}</option>)}
               </select></label>
             <label className="field full"><span>{t('checkout.notes')}</span><textarea rows="2" value={f.notes} onChange={up('notes')} maxLength={500} /></label>
           </div>
