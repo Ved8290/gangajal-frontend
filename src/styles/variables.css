@@ -1,0 +1,6 @@
+:root {
+  --saffron: #e8730c; --saffron-dark: #c75d05; --gold: #c9a227; --cream: #fff8ec; --cream-2: #fdeccc; --white: #fff;
+  --brown: #3b2314; --brown-2: #6b4a34; --line: #eadfce; --green: #1f9d55; --red: #c0392b; --wa: #25d366;
+  --radius: 14px; --shadow: 0 6px 24px rgba(59, 35, 20, 0.09);
+  --font: 'Poppins', 'Noto Sans Devanagari', system-ui, sans-serif; --font-head: 'Cinzel', 'Noto Sans Devanagari', serif;
+}

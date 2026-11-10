@@ -1,0 +1,31 @@
+import api, { get, post, put, del } from './api';
+export const login = (b) => post('/auth/login', b);
+export const logout = () => post('/auth/logout');
+export const me = () => get('/auth/me');
+export const stats = () => get('/dashboard/stats');
+export const orders = (p) => get('/orders', p);
+export const order = (id) => get(`/orders/${id}`);
+export const setStatus = (id, b) => put(`/orders/${id}/status`, b);
+export const updateOrder = (id, b) => put(`/orders/${id}`, b);
+export const deleteOrder = (id) => del(`/orders/${id}`);
+export const customers = (p) => get('/customers', p);
+export const customer = (id) => get(`/customers/${id}`);
+export const adminProducts = (p) => get('/products', { all: true, ...p });
+export const saveProduct = (id, b) => (id ? put(`/products/${id}`, b) : post('/products', b));
+export const deleteProduct = (id) => del(`/products/${id}`);
+export const inventory = (p) => get('/inventory', p);
+export const adjustStock = (id, b) => put(`/inventory/${id}`, b);
+export const saveSettings = (b) => put('/settings', b);
+export const uploadImages = (files) => {
+  const fd = new FormData();
+  [...files].forEach((f) => fd.append('images', f));
+  return api.post('/upload', fd).then((r) => r.data);
+};
+export const exportOrders = async (params) => {
+  const r = await api.get('/orders/export/csv', { params, responseType: 'blob' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(r.data);
+  a.download = `orders-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+};

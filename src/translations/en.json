@@ -1,0 +1,62 @@
+{
+  "brand": "Gangajal & Trambakeshwar Jal",
+  "nav": { "home": "Home", "products": "Products", "about": "About Us", "contact": "Contact", "faq": "FAQ", "track": "Track Order", "cart": "Cart", "menu": "Menu" },
+  "common": { "shopNow": "Shop Now", "whatsappOrder": "Order on WhatsApp", "addToCart": "Add to Cart", "buyNow": "Buy Now", "viewAll": "View All", "loading": "Loading…", "search": "Search products…", "all": "All", "inStock": "In Stock", "outOfStock": "Out of Stock", "onlyLeft": "Only {{count}} left", "price": "Price", "quantity": "Quantity", "size": "Size", "subtotal": "Subtotal", "shipping": "Delivery Charges", "free": "FREE", "discount": "Discount", "total": "Total", "remove": "Remove", "continueShopping": "Continue Shopping", "back": "Back", "copy": "Copy order details", "copied": "Copied!", "added": "Added to cart", "error": "Something went wrong. Please try again.", "retry": "Retry", "language": "Language", "unavailable": "Unavailable" },
+  "categories": { "gangajal": "Gangajal", "trambakeshwar": "Trambakeshwar Jal", "kumbh": "Kumbh Mela Special", "gift": "Gift Packs" },
+  "hero": { "badge": "Nashik Kumbh Mela", "title": "Authentic Gangajal & Trambakeshwar Jal", "subtitle": "Holy water from the sacred lands of Nashik and Trambakeshwar, delivered to your home.", "trust1": "Authentic Source", "trust2": "Securely Sealed", "trust3": "Easy WhatsApp Ordering" },
+  "home": {
+    "featured": "Featured Products", "categories": "Shop by Category", "benefitsTitle": "Benefits & Uses of Gangajal",
+    "benefits": [
+      { "t": "Daily Puja & Rituals", "d": "Used in daily puja, abhishek and sacred ceremonies." },
+      { "t": "Sacred Sprinkling", "d": "Sprinkled at home on auspicious occasions such as Griha Pravesh." },
+      { "t": "Spiritual Significance", "d": "Held sacred in Hindu tradition and kept in the home temple." },
+      { "t": "A Blessed Gift", "d": "A meaningful gift for festivals, weddings and the Kumbh Mela." }
+    ],
+    "whyTitle": "Why Choose Us?",
+    "why": [
+      { "t": "Authentic Sourcing", "d": "Holy water sourced from Nashik and Trambakeshwar." },
+      { "t": "Secure Packing", "d": "Every bottle is sealed and packed with care." },
+      { "t": "Home Delivery", "d": "We deliver to your doorstep." },
+      { "t": "Support in Your Language", "d": "Order and get help in Marathi, Hindi or English on WhatsApp." }
+    ],
+    "testimonialsTitle": "What Devotees Say",
+    "testimonials": [
+      { "n": "Sample Customer, Pune", "t": "Sample review: The packing was neat and the bottle arrived safely." },
+      { "n": "Sample Customer, Mumbai", "t": "Sample review: Ordering on WhatsApp was very easy." },
+      { "n": "Sample Customer, Nagpur", "t": "Sample review: Good service and quick replies." }
+    ],
+    "faqTitle": "Frequently Asked Questions", "ctaTitle": "Ready to order?", "ctaText": "Place your order in minutes and confirm it on WhatsApp."
+  },
+  "faqs": [
+    { "q": "How do I place an order?", "a": "Add products to your cart, enter your delivery details and tap 'Confirm Order on WhatsApp'. Your order is saved first, then WhatsApp opens with your order message. Please press Send." },
+    { "q": "Do I need to pay online?", "a": "No. There is no online payment on this website. We confirm your order on WhatsApp and agree the payment method with you (for example Cash on Delivery or UPI)." },
+    { "q": "How long does delivery take?", "a": "It depends on your location. We will share an estimate when we confirm your order on WhatsApp." },
+    { "q": "How can I track my order?", "a": "Open 'Track Order' and enter your Order ID and mobile number." },
+    { "q": "Can I change or cancel my order?", "a": "Yes, before it is shipped. Please message us on WhatsApp with your Order ID." }
+  ],
+  "shop": { "title": "Our Products", "subtitle": "Authentic Gangajal and Trambakeshwar Jal", "category": "Category", "priceRange": "Price", "min": "Min ₹", "max": "Max ₹", "sort": "Sort by", "sortNew": "Newest", "sortLow": "Price: Low to High", "sortHigh": "Price: High to Low", "noResults": "No products found", "noResultsText": "Try a different search or clear the filters.", "clear": "Clear filters", "prev": "Previous", "next": "Next", "related": "Related Products", "inquiry": "Ask on WhatsApp", "notFound": "This product could not be found." },
+  "cart": { "title": "Your Cart", "empty": "Your cart is empty", "emptyText": "Add some holy water to get started.", "checkout": "Proceed to Checkout", "freeHint": "Add ₹{{amount}} more for free delivery" },
+  "checkout": {
+    "title": "Checkout", "details": "Delivery Details", "summary": "Order Summary",
+    "fullName": "Full Name", "mobile": "Mobile Number", "whatsapp": "WhatsApp Number", "sameAsMobile": "Same as mobile", "address": "Complete Address", "city": "Village / City", "district": "District", "state": "State", "pincode": "PIN Code", "landmark": "Landmark (optional)", "notes": "Order Notes (optional)", "language": "Preferred Language", "payment": "Payment Method",
+    "confirm": "Confirm Order on WhatsApp", "saving": "Saving your order…",
+    "note": "Your order is saved first. Then WhatsApp opens with your order message – please press Send to confirm. No online payment is needed.",
+    "required": "This field is required", "mobileInvalid": "Enter a valid 10-digit mobile number", "pincodeInvalid": "Enter a valid 6-digit PIN code"
+  },
+  "success": { "title": "Your order is saved", "body": "Your order {{id}} has been saved. To confirm it, please send us the WhatsApp message. Your order is not confirmed until we reply on WhatsApp.", "open": "Open WhatsApp & Send Message", "noWhatsapp": "WhatsApp not opening?", "copyHint": "Copy the details and send them to our WhatsApp number {{number}}, or scan this QR code with your phone.", "track": "Track this order" },
+  "track": { "title": "Track Your Order", "orderId": "Order ID (e.g. GJ-2026-0001)", "mobile": "Mobile Number", "check": "Check Status", "notFound": "No order found with these details.", "history": "Status History", "tracking": "Tracking Number", "paymentStatus": "Payment" },
+  "status": { "pending": "Pending WhatsApp Confirmation", "confirmed": "Confirmed", "processing": "Processing", "packed": "Packed", "shipped": "Shipped", "delivered": "Delivered", "cancelled": "Cancelled" },
+  "payment": { "cod": "Cash on Delivery", "upi": "UPI on Delivery", "bank": "Bank Transfer", "manual": "Manual Payment", "Pending": "Pending", "Paid": "Paid", "Failed": "Failed", "Refunded": "Refunded" },
+  "footer": { "about": "Authentic holy water from Nashik and Trambakeshwar, delivered to your home.", "quick": "Quick Links", "policies": "Policies", "contact": "Contact", "rights": "All rights reserved." },
+  "pages": {
+    "placeholder": "This is placeholder content and will be updated by the business owner.",
+    "about": { "title": "About Us", "p1": "We bring authentic holy water from Nashik and Trambakeshwar to devotees across India, especially during the Nashik Kumbh Mela.", "p2": "Our aim is to make holy water easy to order, simply and safely, in your own language." },
+    "contact": { "title": "Contact Us", "intro": "We are happy to help. Reach us on WhatsApp, phone or email.", "call": "Call", "email": "Email", "address": "Address" },
+    "shipping": { "title": "Shipping Policy", "body": "We ship to addresses across India. Delivery charges are shown in your cart and confirmed on WhatsApp. Delivery time depends on your location." },
+    "privacy": { "title": "Privacy Policy", "body": "We collect your name, phone number and address only to process and deliver your order. We do not sell your data to anyone." },
+    "terms": { "title": "Terms & Conditions", "body": "By placing an order you agree that your order is confirmed only after we confirm it on WhatsApp. Prices and availability may change." },
+    "refund": { "title": "Return & Refund Policy", "body": "Because these are sealed religious products, returns are accepted only for damaged or wrong items reported within 48 hours of delivery with a photo." }
+  },
+  "notFound": { "title": "Page not found", "text": "The page you are looking for does not exist.", "cta": "Go to Home" },
+  "seo": { "homeTitle": "Buy Gangajal Online | Trambakeshwar Jal from Nashik", "homeDesc": "Order authentic Gangajal and Trambakeshwar Jal online from Nashik. Nashik Kumbh Mela special holy water, delivered to your home. Order easily on WhatsApp.", "productsTitle": "Gangajal & Trambakeshwar Jal Online – Shop", "productsDesc": "Browse Gangajal, Trambakeshwar Jal, Kumbh Mela special water and gift packs from Nashik." }
+}
